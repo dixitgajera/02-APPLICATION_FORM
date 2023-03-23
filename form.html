@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dixit Gajera</title>
+
+    <style>
+        body {
+            width: 400px;
+            margin: auto;
+            display: block;
+         
+        }
+
+        div {
+            
+            max-width: fit-content;
+            height: fit-content;
+            border: 2px solid black;
+            color: black;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: bold;
+            border-collapse: collapse;
+            background-color: skyblue;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div><br>
+        <h1 style="text-align: center;">Application Form</h1>
+        <hr>
+        <form>
+            <table><br>
+                </tr>
+                <tr>
+                    <td>First Name :</td>
+                    <td><input type="text" name="firstname" size="auto"></td>
+                </tr>
+                <tr>
+                    <td>Last Name :</td>
+                    <td><input type="text" name="lastname"></td>
+                </tr>
+                <tr>
+                    <td>Email @ :</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number :</td>
+                    <td><input type="text" name="phonenumber" maxlength="10" required></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td><input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                        <input type="radio" name="gender" value="other">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth :</td>
+                    <td><input type="date" name="bday"></td>
+                </tr>
+                <tr>
+                    <td>Address :</td>
+                    <td><textarea name="comment" cols="20" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>City :</td>
+                    <td><input type="text" name="City"></td>
+                </tr>
+                <tr>
+                    <td>Pin Code :</td>
+                    <td><input type="text" name="pincode" maxlength="6"></td>
+                </tr>
+                <tr>
+                    <td>State :</td>
+                    <td><input type="text" name="state"></td>
+                </tr>
+                <tr>
+                    <td>Country :</td>
+                    <td><input type="text" name="country"></td>
+                </tr>
+                <tr>
+                    <td>Hobbies :<br /><br /><br /><br /><br /></td>
+                    <td><input type="checkbox" name="HobbyDrawing" value="Drawing" />Drawing
+                        <input type="checkbox" name="HobbySinging" value="Singing" />Singing
+                        <input type="checkbox" name="HobbyDancing" value="Dancing" />Dancing <br>
+                        <input type="checkbox" name="HobbyCooking" value="Cooking" />Sketching
+                        <input type="checkbox" name="HobbyOther" value="Other">Others
+                        <input type="checkbox" name="hobby" value="cricket" />Cricket <br>
+                        <input type="checkbox" name="hobby" value="shotting" />Shotting
+                        <input type="checkbox" name="hobby" value="boxing" />Boxing
+                        <input type="checkbox" name="hobby" value="football" />Football <br>
+                        <input type="text" name="Other_Hobby" maxlength="50" placeholder="Ex- Teaching" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Qualification :<br /><br /><br /><br /><br /><br></td>
+                    <td><input type="radio" name="Qualification" value="10th Pass">10th Pass <br>
+                        <input type="radio" name="Qualification" value="12th Pass">12th Pass <br>
+                        <input type="radio" name="Qualification" value="Graduation">Graduation <br>
+                        <input type="radio" name="Qualification" value="Post Graduation">Post Graduation <br>
+                        <input type="radio" name="Qualification" value="phd">PHD
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Course :</td>
+                    <td>
+                        <select name="selectcourse">
+
+                            <option value="----">---</option>
+                            <option value="fullstackdeveloper">Full Stack Developer</option>
+                            <option value="frontenddeveloper">Front-end developer</option>
+                            <option value="backenddeveloper">Back-end Developer</option>
+                            <option value="uiuxdevelopment">UI-UX Development</option>
+                            <option value="digitalmarketing">Digital Marketing</option>
+                            <option value="graphicdesign">Graphic Design</option>
+                            <option value="dataanalytics">Data Analytics</option>
+                            <option value="cybersecurity">cyber Security</option>
+                            <option value="mobileappdevelopment">Mobile App Development</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><br style="button"><input type="submit" value="submit">
+                        <input type="reset"><br><br>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
